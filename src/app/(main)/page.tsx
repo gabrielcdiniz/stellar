@@ -1,12 +1,6 @@
-import type { ReactNode } from "react";
-
 import { Box, Stack, Typography } from "@mui/joy";
 
-type HomeProps = Readonly<{
-  children: ReactNode;
-}>;
-
-export default function HomePage({}: HomeProps) {
+export default function HomePage() {
   return (
     <Stack py={6} gap={4}>
       <Box>
