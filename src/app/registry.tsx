@@ -61,7 +61,7 @@ export function ThemeRegistry(props: ThemeRegistryProps) {
 
   return (
     <CacheProvider value={cache}>
-      <CssVarsProvider theme={StellarTheme}>
+      <CssVarsProvider theme={StellarTheme} defaultMode="dark">
         <GlobalStyles
           styles={{
             ".svg-inline--fa": {
@@ -70,6 +70,10 @@ export function ThemeRegistry(props: ThemeRegistryProps) {
               fontSize: "var(--Icon-fontSize, 20px)",
               width: "1em",
               height: "1em",
+            },
+
+            "*::selection": {
+              backgroundColor: "var(--joy-palette-primary-solidBg)",
             },
           }}
         />

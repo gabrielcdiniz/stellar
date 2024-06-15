@@ -2,7 +2,7 @@ import { extendTheme } from "@mui/joy/styles";
 
 export const StellarTheme = extendTheme({
   colorSchemes: {
-    light: {
+    dark: {
       palette: {
         primary: {
           "50": "#e0e7ff",
@@ -15,6 +15,32 @@ export const StellarTheme = extendTheme({
           "700": "#3730a3",
           "800": "#312e81",
           "900": "#1e1b4b",
+
+          outlinedActiveBg: "var(--joy-palette-primary-200)",
+          outlinedBorder: "var(--joy-palette-primary-300)",
+          outlinedColor: "var(--joy-palette-primary-500)",
+          outlinedDisabledBorder: "var(--joy-palette-neutral-200)",
+          outlinedDisabledColor: "var(--joy-palette-neutral-400)",
+          outlinedHoverBg: "var(--joy-palette-primary-100)",
+
+          plainActiveBg: "var(--joy-palette-primary-200)",
+          plainColor: "var(--joy-palette-primary-500)",
+          plainDisabledColor: "var(--joy-palette-neutral-400)",
+          plainHoverBg: "var(--joy-palette-primary-100)",
+
+          softActiveBg: "var(--joy-palette-primary-300)",
+          softBg: "var(--joy-palette-primary-100)",
+          softColor: "var(--joy-palette-primary-700)",
+          softDisabledBg: "var(--joy-palette-neutral-50)",
+          softDisabledColor: "var(--joy-palette-neutral-400)",
+          softHoverBg: "var(--joy-palette-primary-200)",
+
+          solidActiveBg: "var(--joy-palette-primary-700)",
+          solidBg: "var(--joy-palette-primary-500)",
+          solidColor: "var(--joy-palette-common-white)",
+          solidDisabledBg: "var(--joy-palette-neutral-100)",
+          solidDisabledColor: "var(--joy-palette-neutral-400)",
+          solidHoverBg: "var(--joy-palette-primary-600)",
         },
         secondary: {
           "50": "#fae8ff",
@@ -65,6 +91,32 @@ export const StellarTheme = extendTheme({
           "700": "#065f46",
           "800": "#064e3b",
           "900": "#022c22",
+
+          outlinedActiveBg: "var(--joy-palette-success-200)",
+          outlinedBorder: "var(--joy-palette-success-300)",
+          outlinedColor: "var(--joy-palette-success-500)",
+          outlinedDisabledBorder: "var(--joy-palette-neutral-200)",
+          outlinedDisabledColor: "var(--joy-palette-neutral-400)",
+          outlinedHoverBg: "var(--joy-palette-success-100)",
+
+          plainActiveBg: "var(--joy-palette-success-200)",
+          plainColor: "var(--joy-palette-success-500)",
+          plainDisabledColor: "var(--joy-palette-neutral-400)",
+          plainHoverBg: "var(--joy-palette-success-100)",
+
+          softActiveBg: "var(--joy-palette-success-300)",
+          softBg: "var(--joy-palette-success-100)",
+          softColor: "var(--joy-palette-success-700)",
+          softDisabledBg: "var(--joy-palette-neutral-50)",
+          softDisabledColor: "var(--joy-palette-neutral-400)",
+          softHoverBg: "var(--joy-palette-success-200)",
+
+          solidActiveBg: "var(--joy-palette-success-700)",
+          solidBg: "var(--joy-palette-success-500)",
+          solidColor: "var(--joy-palette-common-white)",
+          solidDisabledBg: "var(--joy-palette-neutral-100)",
+          solidDisabledColor: "var(--joy-palette-neutral-400)",
+          solidHoverBg: "var(--joy-palette-success-600)",
         },
         warning: {
           "50": "#fef9c3",
@@ -77,6 +129,32 @@ export const StellarTheme = extendTheme({
           "700": "#854d0e",
           "800": "#713f12",
           "900": "#422006",
+
+          outlinedActiveBg: "var(--joy-palette-warning-200)",
+          outlinedBorder: "var(--joy-palette-warning-300)",
+          outlinedColor: "var(--joy-palette-warning-500)",
+          outlinedDisabledBorder: "var(--joy-palette-neutral-200)",
+          outlinedDisabledColor: "var(--joy-palette-neutral-400)",
+          outlinedHoverBg: "var(--joy-palette-warning-100)",
+
+          plainActiveBg: "var(--joy-palette-warning-200)",
+          plainColor: "var(--joy-palette-warning-500)",
+          plainDisabledColor: "var(--joy-palette-neutral-400)",
+          plainHoverBg: "var(--joy-palette-warning-100)",
+
+          softActiveBg: "var(--joy-palette-warning-300)",
+          softBg: "var(--joy-palette-warning-100)",
+          softColor: "var(--joy-palette-warning-700)",
+          softDisabledBg: "var(--joy-palette-neutral-50)",
+          softDisabledColor: "var(--joy-palette-neutral-400)",
+          softHoverBg: "var(--joy-palette-warning-200)",
+
+          solidActiveBg: "var(--joy-palette-warning-700)",
+          solidBg: "var(--joy-palette-warning-500)",
+          solidColor: "var(--joy-palette-common-white)",
+          solidDisabledBg: "var(--joy-palette-neutral-100)",
+          solidDisabledColor: "var(--joy-palette-neutral-400)",
+          solidHoverBg: "var(--joy-palette-warning-600)",
         },
         danger: {
           "50": "#ffe4e6",
@@ -89,6 +167,32 @@ export const StellarTheme = extendTheme({
           "700": "#9f1239",
           "800": "#881337",
           "900": "#4c0519",
+
+          outlinedActiveBg: "var(--joy-palette-danger-200)",
+          outlinedBorder: "var(--joy-palette-danger-300)",
+          outlinedColor: "var(--joy-palette-danger-500)",
+          outlinedDisabledBorder: "var(--joy-palette-neutral-200)",
+          outlinedDisabledColor: "var(--joy-palette-neutral-400)",
+          outlinedHoverBg: "var(--joy-palette-danger-100)",
+
+          plainActiveBg: "var(--joy-palette-danger-200)",
+          plainColor: "var(--joy-palette-danger-500)",
+          plainDisabledColor: "var(--joy-palette-neutral-400)",
+          plainHoverBg: "var(--joy-palette-danger-100)",
+
+          softActiveBg: "var(--joy-palette-danger-300)",
+          softBg: "var(--joy-palette-danger-100)",
+          softColor: "var(--joy-palette-danger-700)",
+          softDisabledBg: "var(--joy-palette-neutral-50)",
+          softDisabledColor: "var(--joy-palette-neutral-400)",
+          softHoverBg: "var(--joy-palette-danger-200)",
+
+          solidActiveBg: "var(--joy-palette-danger-700)",
+          solidBg: "var(--joy-palette-danger-500)",
+          solidColor: "var(--joy-palette-common-white)",
+          solidDisabledBg: "var(--joy-palette-neutral-100)",
+          solidDisabledColor: "var(--joy-palette-neutral-400)",
+          solidHoverBg: "var(--joy-palette-danger-600)",
         },
         info: {
           "50": "#e0f2fe",
@@ -129,16 +233,16 @@ export const StellarTheme = extendTheme({
           solidHoverBg: "var(--joy-palette-info-600)",
         },
         neutral: {
-          "50": "#f1f5f9",
-          "100": "#e2e8f0",
-          "200": "#cbd5e1",
-          "300": "#94a3b8",
-          "400": "#64748b",
-          "500": "#475569",
-          "600": "#334155",
-          "700": "#1e293b",
-          "800": "#0f172a",
-          "900": "#020617",
+          "50": "#f4f4f5",
+          "100": "#e4e4e7",
+          "200": "#d4d4d8",
+          "300": "#a1a1aa",
+          "400": "#71717a",
+          "500": "#52525b",
+          "600": "#3f3f46",
+          "700": "#27272a",
+          "800": "#18181b",
+          "900": "#09090b",
         },
       },
     },
