@@ -4,9 +4,7 @@ import { Box, Container, Typography } from "@mui/joy";
 
 import { Link } from "@/components/link";
 
-type FooterProps = Readonly<{}>;
-
-export function Footer({}: FooterProps) {
+export function Footer() {
   return (
     <Box component="footer" width="100%" pb={4}>
       <Container>
